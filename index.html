@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>First Training</title>
+  <title>Portfolio</title>
   <!-- meta -->
   <meta charset="utf-8" />
   <meta name="description" content="Personal Site">
@@ -12,6 +12,7 @@
   <!-- styles -->
   <link rel="stylesheet" type="text/css" href="vendor/css/normalize.css">
   <link rel="stylesheet" type="text/css" href="assets/css/main.css">
+  <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Lato:100,300,400">
   <!-- scripts -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script type="text/javascript" src="app.js"></script>
@@ -22,31 +23,80 @@
   @import url('https://fonts.googleapis.com/css?family=Sedgwick+Ave+Display');
   </style>
 </head>
-<body>
-  <div class="header">
-    <img src="https://avatars2.githubusercontent.com/u/9275050?v=4&s=200" alt="Erick Recher">
-    <h1>Erick Recher's (aka JavaScriptForLife) Portfolio</h1>
-    <nav>
-      <ul>
-        <li><a href="about.html">Learn About Me</a></li>
-        <li><a href="sites.html">Other Sites I Have Built</a></li>
-        <li><a href="code.html">Javascript Code For Others To Use</a></li>
-        <li><a href="teach.html">Teach Yourself How To Code</a></li>
-        <li><a href="mailto:javascriptforlife@gmail.com">Email Me</a></li>
-      </ul>
-    </nav>
-  </div>
-  <div class="content">
-    <h2>What This Site Is About</h2>
-    <p>As a web developer, I want show others what I do, how they too can become a
-       web developer, and a place where they can find reusable code.
+<body id="top">
+
+  <header class="primary-header container group">
+
+    <h1 class="logo">
+      <a href="index.html">Erick <br> Recher</a>
+    </h1>
+   <!-- <img src="https://avatars2.githubusercontent.com/u/9275050?v=4&s=200" alt="Erick Recher"> -->
+    <h3 class="tagline">Full Stack Web Developer</h3>
+    <ul>
+      <nav class="nav primary-nav">
+        <!-- <li><a href="index.html">Home/ </a></li> -->
+        <a href="sites.html">Sites I have built/</a>
+        <a href="teach.html">Teach Yourself How To Code/</a>
+        <a href="code.html">Reusable Code/</a>
+        <a href="mailto:javascriptforlife@gmail.com">Email Me/</a>
+      </nav>
+    </ul>
+  </header>
+  <section class="hero container">
+
+    <h2>Dedicated to Creating Original Web Apps</h2>
+
+    <p>As a web developer I want show others some of what I've done, how they too can become a
+       web developer, and a place where they can find reusable code. Welcome to my site.
     </p>
-    <h1 class="languages">Languages I am using.</h1>
-    <h1>Projects that I have worked on</h1>
-      <ol class="projects">
-      </ol>
-  </div>
-  <footer>
-    <p>&copy;JavascriptForLife<p>
-  </footer>
+
+    <a class="btn btn-alt" href="mailto:javascriptforlife@gmail.com">Contact Me!</a>
+
+  </section>
+
+  <section class="row">
+      <div class="grid">
+        <h2>What This Site Is About</h2>
+        <h4> I have gone a lot of different routes in becoming a web developer. I started
+          off not knowing which way to go. A lot of my friends were Sys Admins, so I started
+          studying Linux and Networking. Feeling discouraged because it wasn't creative enough for me,
+          I decided to pursue a Computer Science degree. I attended SJSU, but their computer science program
+          is absolutely horrible. In my first Java programming class, 70% dropped the class. Out of what
+          was left, only a 1/3 passed from that 30%. There were four unseen teachers above
+          our teacher, they dictated the homework and tests. The teacher that was "teaching" us
+          refused to help with homework or any lab assignments. So I dropped, but tried again next semester.
+          This time, the head of the CS department was teaching the Intro to CS class, Java.
+          The teacher was completely arrogant, insulting anyone who asked questions, then asking
+          why no one was asking questions. He was a professional, not a teacher. Eventually, SJSU
+          decided to lower the requirements for a CS degree because a majority of the students
+          were dropping. I decided to drop the CS degree and went on to finish my Music Degree,
+          pursuing Music Tech.</h4> <br>
+          <h4>However, I wasn't about to give up. I decided to teach myself by pursuing other non traditional routes.
+          Everything you need to know is on the web, but there is still a lot you won't learn teaching yourself.
+          Proper coding techniques, which technologies to learn, algorithms, which field to pursue, and more.
+          In the end, I decided to combine classroom instruction with self instruction.
+          So far, I have gone halfway through a CS degree, attended multiple bootcamp
+          preps (Hack Reactor and App Academy), worked through multiple coding websites, studied Linux, studied networking,
+          studied multiple languages, and then finally attended a coding bootcamp (General Assembly).
+          This website is not only for displaying some of my work, but to help others learn how
+          to become a web developer.</h4> <br>
+          <h4>This site is to display my work, but more importantly it's to help others learn how to code.
+          The first page is to give you links to apps I have built. The second page I've dedicated to giving you step by step instructions on how to become a web
+          developer. I've also dedicated another page for reusable javascript code. Contact me if you need any help
+          or any kind of direction. Not code help, but career guidance. ;)
+          </h4>
+      </div>
+    </section>
+
+    <footer class="primary-footer container group">
+      <small>&copy; JavascriptForLife</small>
+      <nav class="nav primary-nav">
+        <a href="index.html">Home/</a>
+        <a href="sites.html">Sites I have built/</a>
+        <a href="teach.html">Teach Yourself How To Code/</a>
+        <a href="code.html">Reusable Code/</a>
+        <a href="mailto:javascriptforlife@gmail.com">Email Me/</a>
+      </nav>
+    </footer>
+  </body>
 </html>
