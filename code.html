@@ -52,7 +52,25 @@
   <section class="row">
       <div class="grid">
         <h2>Reusable Code</h2>
+        <h6>Sort An Array of Numbers</h6>
+          <p>
+            function insertion(arr){
+              var len = arr.length; //array length
+              for (var i = len - 1; i >= 0; i--){
+                for(var j = 1; j <= i; j++){
+                  if(arr[j-1] > arr[j]){
+                    var temp   = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j]     = temp;
+                  }
+                }
+              }
+              return arr;
+            }
+            var numbers = [10,3,7,2,6];
+            console.log(insertion(numbers));
 
+          </p>
       </div>
       <h1 class="work">This Page Is A Work In Progress</h1>
     </section>
