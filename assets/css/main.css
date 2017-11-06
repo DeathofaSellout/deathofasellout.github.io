@@ -346,7 +346,11 @@ select,
 textarea {
   font: 300 16px/22px "Lato", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-
+/*
+  ========================================
+  Extras
+  ========================================
+*/
 .pic {
   border-radius: 30px;
   border: white 1px solid;
@@ -354,4 +358,9 @@ textarea {
   width: 250px;
   margin-left: 36.5%;
   margin-bottom: 20px;
+}
+.work {
+  margin: 0 auto;
+  width: 500px;
+  color: black;
 }
