@@ -364,3 +364,10 @@ textarea {
   width: 500px;
   color: black;
 }
+.picTwo {
+  border-radius: 50px;
+  border: white 1px solid;
+  height: 400px;
+  width: 920px;
+  margin-bottom: 20px;
+}
