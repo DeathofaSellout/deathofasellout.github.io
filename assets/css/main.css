@@ -287,12 +287,6 @@ p a {
   font-weight: 400;
 }
 
-/*
-  ========================================
-  Navigation
-  ========================================
-*/
-
 .nav {
   text-align: right;
 }
@@ -305,11 +299,6 @@ p a {
   margin-right: 0;
 }
 
-/*
-  ========================================
-  Home
-  ========================================
-*/
 .hero {
   color: #fff;
   line-height: 44px;
@@ -370,4 +359,7 @@ textarea {
   height: 400px;
   width: 920px;
   margin-bottom: 20px;
+}
+#id {
+  color: black;
 }
